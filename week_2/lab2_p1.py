@@ -1,0 +1,5 @@
+first_str = input("What base? ")
+first = int(first_str)
+second_str = input("What power of " + first_str + "? ")
+second = int(second_str)
+print(first, "to the power of", second, "is", first**second)
